@@ -5,15 +5,15 @@
 Sigfox operates a global network, dedicated to the IoT.  
 Very low energy consumption, allowing devices to last years on battery.
 
-The network is all about small messages (12 bytes of useful payload) every now and then (up to 140 times per day.
+The network is all about small messages (12 bytes of useful payload) every now and then (up to 140 times per day).
 
 As the network is bi-directionnal, you can send data from your server to your devices whenever they ask for an update
 
-Check out our makers [website](http://makers.sigfox.com) to get more informations about Sigfox.
+Check out our [developers portal](http://makers.sigfox.com) to get more informations about Sigfox.
 
 ##Downlink details
 
-A _downlink_ message is a message sent _to_ a connected device/thing.  
+A _downlink_ message is a message sent _to_ your device.  
 Using the Sigfox network, this message can be sent either by the network itself (direct, with a few built-in vars), or by the user's application server (callback)
 
 Each downlink message is an 8-bytes frame.
@@ -36,7 +36,7 @@ When sending back some data, you must comply with the following:
 	
 ##Set up your callback URL
 
-* Log in your [SIGFOX](http://backend.sigfox.com) account.
+* Log in your [Sigfox Cloud](http://backend.sigfox.com) account.
 * Navigate to the appropriate _device type_ menu
 * Edit the device type, to set the _Downlink mode_ to _callback_
 * In the _Callbacks_ menu, add a new _default_ one, with the following settings :
