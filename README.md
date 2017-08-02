@@ -1,6 +1,6 @@
-#SIGFOX Downlink
+# SIGFOX Downlink
 
-##About Sigfox
+## About Sigfox
 
 Sigfox operates a global network, dedicated to the IoT.  
 Very low energy consumption, allowing devices to last years on battery.
@@ -11,7 +11,7 @@ As the network is bi-directionnal, you can send data from your server to your de
 
 Check out our [developers portal](http://makers.sigfox.com) to get more informations about Sigfox.
 
-##Downlink details
+## Downlink details
 
 A _downlink_ message is a message sent _to_ your device.  
 Using the Sigfox network, this message can be sent either by the network itself (direct, with a few built-in vars), or by the user's application server (callback)
@@ -34,7 +34,7 @@ When sending back some data, you must comply with the following:
  	 }
 	}
 	
-##Set up your callback URL
+## Set up your callback URL
 
 * Log in your [Sigfox Cloud](http://backend.sigfox.com) account.
 * Navigate to the appropriate _device type_ menu
@@ -62,12 +62,12 @@ In this samples, the body was set as:
 ![Downlink Callback](./doc/callback.png)
 
 
-##This repo
+## This repo
 
 This repository contains boilerplate examples in different languages. The goal is to help you getting started with your favorite languauge.  
 Fixes, pull requests, ... are all welcome :)
 
-###Available Code Samples
-####Php
+### Available Code Samples
+#### Php
 * Vanilla Php
 * Basic Silex app (+Composer)
