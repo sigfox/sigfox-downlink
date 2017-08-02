@@ -1,4 +1,5 @@
-# SIGFOX Downlink
+# Sigfox Downlink Callback
+
 
 ## About Sigfox
 
@@ -82,5 +83,5 @@ Fixes, pull requests, ... are all welcome :)
 
 ### Available Code Samples
 #### Php
-* Vanilla Php
-* Basic Silex app (+Composer)
+* [Vanilla Php](./php/vanilla/)
+* [Basic Silex app](./php/silex) (+Composer)
