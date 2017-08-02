@@ -82,6 +82,10 @@ This repository contains boilerplate examples in different languages. The goal i
 Fixes, pull requests, ... are all welcome :)
 
 ### Available Code Samples
+#### NodeJS
+
+* [Basic server](./nodejs/), using hapi
+
 #### Php
 * [Vanilla Php](./php/vanilla/)
 * [Basic Silex app](./php/silex) (+Composer)
