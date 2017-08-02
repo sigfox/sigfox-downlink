@@ -6,6 +6,8 @@ if ($_SERVER['REQUEST_METHOD']!=='POST'){
   die();
 }
 
+$_POST = json_decode(file_get_contents('php://input'), true);
+
 if (is_null($_POST['deviceId'])){
   header("HTTP/1.0 204 No Content");
   die();
