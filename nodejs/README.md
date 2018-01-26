@@ -25,7 +25,7 @@ $ node hapi.js
 
 #### Downlink data
 
-	$ curl -X POST http://localhost:4004/sigfox-downlink-empty -H "content-type: application/json" -d '{"device":"FAF7E"}'
+	$ curl -X POST http://localhost:4004/sigfox-downlink-data -H "content-type: application/json" -d '{"device":"FAF7E", "data":"70117f61a5ceec67"}'
 
 	< HTTP/1.1 200 OK
 	< content-type: application/json; charset=utf-8
