@@ -4,8 +4,8 @@
   "description": "## About",
   "main": "hapi.js",
   "dependencies": {
-    "hapi": "^16.5.0",
-    "joi": "^10.6.0"
+    "hapi": "^18.1.0",
+    "joi": "^14.3.1"
   },
   "devDependencies": {},
   "scripts": {
