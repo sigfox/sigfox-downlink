@@ -27,11 +27,9 @@ var downlinkHandler = (request, reply) => {
    * Reply with the proper JSON format.
    * The _downlinkData_ will be sent to the device
    **/
-
-  reply({
-    "deviceId":request.payload.device,
-    "downlinkData":getDownlinkData(request.payload)
-  });
+  var response = {};
+  response[request.payload.device] = {"downlinkData":getDownlinkData(request.payload)};
+  reply(response);
 };
 var downlinkConfig = {
   handler: downlinkHandler,
